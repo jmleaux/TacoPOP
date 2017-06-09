@@ -23,6 +23,8 @@
 		CA69DBD51EEAABDE007A3B5A /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69DBD41EEAABDE007A3B5A /* ReusableView.swift */; };
 		CA69DBD71EEAAC87007A3B5A /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69DBD61EEAAC87007A3B5A /* NibLoadableView.swift */; };
 		CA69DBD91EEAACF3007A3B5A /* UICollectionViewPlusExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69DBD81EEAACF3007A3B5A /* UICollectionViewPlusExt.swift */; };
+		CA69DBDB1EEACEF1007A3B5A /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69DBDA1EEACEF1007A3B5A /* MutableCollection+Ext.swift */; };
+		CA69DBDD1EEAD069007A3B5A /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69DBDC1EEAD069007A3B5A /* Shakeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		CA69DBD41EEAABDE007A3B5A /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		CA69DBD61EEAAC87007A3B5A /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		CA69DBD81EEAACF3007A3B5A /* UICollectionViewPlusExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewPlusExt.swift; sourceTree = "<group>"; };
+		CA69DBDA1EEACEF1007A3B5A /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
+		CA69DBDC1EEAD069007A3B5A /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,7 @@
 				CA69DBC81EE994E4007A3B5A /* DropShadow.swift */,
 				CA69DBD41EEAABDE007A3B5A /* ReusableView.swift */,
 				CA69DBD61EEAAC87007A3B5A /* NibLoadableView.swift */,
+				CA69DBDC1EEAD069007A3B5A /* Shakeable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				CA69DBD81EEAACF3007A3B5A /* UICollectionViewPlusExt.swift */,
+				CA69DBDA1EEACEF1007A3B5A /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA69DBD21EEAA5F1007A3B5A /* TacoCell.swift in Sources */,
+				CA69DBDB1EEACEF1007A3B5A /* MutableCollection+Ext.swift in Sources */,
 				CA69DB9F1EE99251007A3B5A /* AppDelegate.swift in Sources */,
 				CA69DBD91EEAACF3007A3B5A /* UICollectionViewPlusExt.swift in Sources */,
 				CA69DBC91EE994E4007A3B5A /* DropShadow.swift in Sources */,
@@ -290,6 +297,7 @@
 				CA69DBC51EE99316007A3B5A /* MainVC.swift in Sources */,
 				CA69DBCF1EEAA2C3007A3B5A /* DataService.swift in Sources */,
 				CA69DBCD1EE9979F007A3B5A /* Taco.swift in Sources */,
+				CA69DBDD1EEAD069007A3B5A /* Shakeable.swift in Sources */,
 				CA69DBCB1EE995E2007A3B5A /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

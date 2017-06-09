@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TacoCell: UICollectionViewCell, NibLoadableView {
+class TacoCell: UICollectionViewCell, NibLoadableView, Shakeable {
 
     @IBOutlet weak var tacoImage: UIImageView!
     @IBOutlet weak var tacoLbl: UILabel!
@@ -20,7 +20,6 @@ class TacoCell: UICollectionViewCell, NibLoadableView {
         tacoImage.image = UIImage(named: taco.proteinId.rawValue)
         tacoLbl.text = taco.productName
         tacoLbl.textColor = UIColor.darkGray
-        print("just added \(taco.productName) to the tacoLbl.text")
     }
     
 
